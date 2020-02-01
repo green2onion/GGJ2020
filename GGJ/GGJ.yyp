@@ -74,7 +74,7 @@
             "Key": "0990690d-289a-415a-8cf6-1e436899caf9",
             "Value": {
                 "id": "aff81bbd-2c2f-4ce8-ae87-987166ea449b",
-                "resourcePath": "sprites\/spr_left\/spr_left.yy",
+                "resourcePath": "sprites\\spr_char_left\\spr_char_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +274,7 @@
             "Key": "78e097b6-052a-4424-84b1-b71e31b4138c",
             "Value": {
                 "id": "531ce4e9-73a9-45d9-8b36-6d26eca925f6",
-                "resourcePath": "sprites\/spr_right\/spr_right.yy",
+                "resourcePath": "sprites\\spr_char_right\\spr_char_right.yy",
                 "resourceType": "GMSprite"
             }
         },

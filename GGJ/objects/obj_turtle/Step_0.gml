@@ -35,5 +35,3 @@ else
 		}
 	}
 }
-
-image_angle = direction;
