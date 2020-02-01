@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "921b56f4-a60a-451f-b2fa-74fcd7648814",
+            "Value": {
+                "id": "9ae973e8-6871-4bfe-a191-f4239e434c3d",
+                "resourcePath": "objects\\obj_turtle\\obj_turtle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "a69c4c94-1471-4727-a6a0-4939fa5a6753",
