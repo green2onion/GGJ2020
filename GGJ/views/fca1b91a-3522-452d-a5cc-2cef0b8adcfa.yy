@@ -46,19 +46,13 @@
         "384963cb-74c1-4610-9080-d3f7e14fd5ec",
         "2aa1e70b-6237-4ec4-9d48-e8c52b53e4e3",
 <<<<<<< HEAD
-<<<<<<< HEAD
         "b7907359-77b4-4d51-b021-b86eee1856a6"
 =======
-=======
->>>>>>> saber-art
         "738ce0fd-330f-496c-8b6f-d98c076846a0",
         "b7d7c369-0dff-42c7-a221-690015354a4d",
         "40ce2277-92b9-4ea0-bf38-7f7a76cd6ea1",
         "6010e756-0afe-43f3-92d4-f664f1128032",
         "03b493c9-45ed-433e-b8dd-098e27ad3ea1"
-<<<<<<< HEAD
->>>>>>> saber-art
-=======
 >>>>>>> saber-art
     ],
     "filterType": "GMSprite",
