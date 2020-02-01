@@ -12,11 +12,7 @@
         "b6d96aab-c8e9-4602-b250-7cfae3f979a2",
         "a2ae0dba-a9ea-4e31-a0bd-b956620cd9cb",
 <<<<<<< HEAD
-<<<<<<< HEAD
         "921b56f4-a60a-451f-b2fa-74fcd7648814"
-=======
-        "f9929f76-44ef-490d-8155-c9b2be8e1555"
->>>>>>> saber-art
 =======
         "f9929f76-44ef-490d-8155-c9b2be8e1555"
 >>>>>>> saber-art
