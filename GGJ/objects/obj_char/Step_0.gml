@@ -28,6 +28,16 @@ if place_meeting(x,y,obj_water_deep)
 	mySpeed = deep_speed;
 	stamina -= 5/fps;
 }
+if place_meeting(x,y,obj_oil)
+{
+	if instance_place(x,y,obj_oil).is_polluted 
+	{
+		mySpeed = deep_polluted_speed;
+		stamina -= 20/fps;
+	}
+	mySpeed = deep_speed;
+	stamina -= 5/fps;
+}
 if place_meeting(x,y,obj_rock)
 {
 	if instance_place(x,y,obj_rock).is_polluted 
@@ -86,8 +96,8 @@ switch (facing)
 {
 	case "front": sprite_index = spr_char_front; break;
 	case "back": sprite_index = spr_char_back; break;
-	case "left": sprite_index = spr_left; break;
-	case "right": sprite_index = spr_right; break;
+	case "left": sprite_index = spr_char_left; break;
+	case "right": sprite_index = spr_char_right; break;
 	default: sprite_index = spr_char_front; break;
 }
 
@@ -102,7 +112,7 @@ for (i=1;i<=abs(ySpeed);i++)
 	}
 	if (can_move)
 	{
-		y+=sign(ySpeed);
+		y+=sign(ySpeed); 
 	}
 }
 for (i=1;i<=abs(xSpeed);i++)
@@ -140,6 +150,10 @@ if keyboard_check(vk_space)
 		{
 			list[|i].is_polluted = false;
 			list[|i].alarm[0] = 10*fps;
+		}
+		if list[|i].object_index == obj_oil
+		{
+			list[|i].hp -= 20/fps;
 		}
 	}
 	

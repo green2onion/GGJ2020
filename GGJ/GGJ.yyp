@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "20f1d26a-002b-4c8f-9791-055995d766e5",
+            "Value": {
+                "id": "b24bae51-cb86-4ded-a36a-c4118b506726",
+                "resourcePath": "objects\\obj_oil\\obj_oil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2aa1e70b-6237-4ec4-9d48-e8c52b53e4e3",
             "Value": {
                 "id": "8e0953fc-faf4-4fe0-86ed-77fb73e84a6d",
@@ -547,6 +555,14 @@
             "Value": {
                 "id": "a5d43717-4257-4504-b9f0-5f0b2dacd1e4",
                 "resourcePath": "sprites\/spr_rock13_normal\/spr_rock13_normal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0d210a4-763e-497d-ba3b-d72447d24877",
+            "Value": {
+                "id": "071334dd-e88d-4cce-8dba-16dba0edc5f7",
+                "resourcePath": "sprites\\spr_oil_fire\\spr_oil_fire.yy",
                 "resourceType": "GMSprite"
             }
         },
