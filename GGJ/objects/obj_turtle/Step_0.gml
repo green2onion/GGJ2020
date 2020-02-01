@@ -1,16 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if place_meeting(x,y,obj_char)
-{
-	if keyboard_check(vk_space)
-	{
-		is_saved = true;
-	}
-}
+
 
 if is_saved
 {
+	
 	if alarm[0] <= 0
 	{
 		alarm[0] = 5*fps;
@@ -29,3 +24,16 @@ if is_saved
 	}
 	ds_list_destroy(list);
 }
+else
+{
+	if place_meeting(x,y,obj_char)
+	{
+		if keyboard_check(vk_space)
+		{
+			is_saved = true;
+			move_towards_point(random_range(0,room_width),random_range(0,room_height),2);
+		}
+	}
+}
+
+image_angle = direction;
