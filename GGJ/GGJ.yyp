@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "680fce65-0446-47f3-bc69-f64322d5d5fd",
+            "Value": {
+                "id": "ee7c5eab-03dd-4d19-a4e3-6bece512289d",
+                "resourcePath": "sprites\/spr_water1\/spr_water1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "cd638162-e49c-4b3d-b269-5aac6e84a633",
