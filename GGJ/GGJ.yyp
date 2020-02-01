@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "03b493c9-45ed-433e-b8dd-098e27ad3ea1",
+            "Value": {
+                "id": "8f65b75f-8ab3-4e07-8ab1-0c5a3169c510",
+                "resourcePath": "sprites\/spr_turtle_walk\/spr_turtle_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04113dc0-45a1-4267-ba4f-de273b5b65d6",
             "Value": {
                 "id": "5ab27682-6be8-4e95-aac4-68ddbe4ff8a8",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "40ce2277-92b9-4ea0-bf38-7f7a76cd6ea1",
+            "Value": {
+                "id": "5d955bd4-7fc8-4331-ad28-ae5f0d998262",
+                "resourcePath": "sprites\/spr_right_left\/spr_right_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42b357d7-7751-4d56-b61f-fc953f95d1b1",
             "Value": {
                 "id": "a299d4b9-a522-4eed-823b-3fb9ce813d43",
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "6010e756-0afe-43f3-92d4-f664f1128032",
+            "Value": {
+                "id": "f4732b1b-aa7f-4386-97ce-2e6b57dcbaa9",
+                "resourcePath": "sprites\/spr_turtle_shell\/spr_turtle_shell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6177c757-4746-42bc-87d5-626ce7f97608",
             "Value": {
                 "id": "45e96c99-af2a-4731-842a-c314b121b1b9",
@@ -251,6 +275,14 @@
             "Value": {
                 "id": "fd63bbe4-39ac-4cbd-868f-29765ae76a91",
                 "resourcePath": "sprites\/spr_rock5_polluted\/spr_rock5_polluted.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "738ce0fd-330f-496c-8b6f-d98c076846a0",
+            "Value": {
+                "id": "ae6db8e6-93cb-4971-a03c-d35e8a5c777f",
+                "resourcePath": "sprites\/spr_pipe_front\/spr_pipe_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -356,6 +388,14 @@
                 "id": "053513b2-afcd-488d-ae76-0eca14f269c7",
                 "resourcePath": "views\/8ec5833e-2c11-4927-802b-fae5326f1698.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "90351db9-e669-48a0-9d6d-3634fe46ab84",
+            "Value": {
+                "id": "05ceba41-dd48-4f36-9597-fbe2210f7dec",
+                "resourcePath": "sprites\/spr_polluted_oilfire_water\/spr_polluted_oilfire_water.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -479,6 +519,14 @@
             }
         },
         {
+            "Key": "b7d7c369-0dff-42c7-a221-690015354a4d",
+            "Value": {
+                "id": "a232367b-c893-4508-a8f8-689e82372f76",
+                "resourcePath": "sprites\/spr_pipe_left\/spr_pipe_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bf1b34df-11fc-44f6-b335-c173c651d3c4",
             "Value": {
                 "id": "572331e3-9cd6-4840-89e3-2622d9a6556b",
@@ -588,6 +636,14 @@
                 "id": "e2d09063-6932-4bc9-bf72-2cf48924b860",
                 "resourcePath": "sprites\/spr_char\/spr_char.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f9929f76-44ef-490d-8155-c9b2be8e1555",
+            "Value": {
+                "id": "165d5c73-6262-41f8-945d-70259d8d63e7",
+                "resourcePath": "objects\/obj_polluted_oilfire_water\/obj_polluted_oilfire_water.yy",
+                "resourceType": "GMObject"
             }
         },
         {
