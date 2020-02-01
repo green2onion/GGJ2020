@@ -66,8 +66,13 @@
     "type": 0,
     "width": 64,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "xorig": 0,
     "yorig": 0
+=======
+    "xorig": 32,
+    "yorig": 32
+>>>>>>> saber-art
 =======
     "xorig": 32,
     "yorig": 32
