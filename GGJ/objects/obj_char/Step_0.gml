@@ -10,16 +10,31 @@ depth = -y;
 
 if place_meeting(x,y,obj_water_shallow)
 {
+	if instance_place(x,y,obj_water_shallow).is_polluted 
+	{
+		mySpeed = shallow_polluted_speed;
+		stamina -= 3/fps;
+	}
 	mySpeed = shallow_speed;
 	stamina -= 2/fps;
 }
 if place_meeting(x,y,obj_water_deep)
 {
+	if instance_place(x,y,obj_water_deep).is_polluted 
+	{
+		mySpeed = deep_polluted_speed;
+		stamina -= 6/fps;
+	}
 	mySpeed = deep_speed;
 	stamina -= 5/fps;
 }
 if place_meeting(x,y,obj_rock)
 {
+	if instance_place(x,y,obj_rock).is_polluted 
+	{
+		mySpeed = shallow_polluted_speed;
+		stamina -= 3/fps;
+	}
 	mySpeed = rock_speed;
 	stamina += 30/fps;
 }
@@ -27,6 +42,10 @@ if place_meeting(x,y,obj_rock)
 if stamina > 100
 {
 	stamina = 100;
+}
+if stamina < 0
+{
+	stamina = 0;
 }
 
 
@@ -65,11 +84,11 @@ else if xSpeed < 0
 
 switch (facing)
 {
-	case "front": sprite_index = spr_char; break;
-	//case "back": sprite_index = spr_broBack; break;
-	//case "left": sprite_index = spr_broLeft; break;
-	//case "right": sprite_index = spr_broRight; break;
-	default: sprite_index = spr_char; break;
+	case "front": sprite_index = spr_char_front; break;
+	case "back": sprite_index = spr_char_back; break;
+	case "left": sprite_index = spr_left; break;
+	case "right": sprite_index = spr_right; break;
+	default: sprite_index = spr_char_front; break;
 }
 
 var can_move = true;
@@ -108,5 +127,22 @@ var cam_y = lerp(camera_get_view_y(view_camera[0]),y-cheight/2,0.1);
 camera_set_view_pos(view_camera[0],cam_x,cam_y);
 
 
-
-
+if keyboard_check(vk_space)
+{
+	var list = ds_list_create();
+	with (obj_spray)
+	{
+		var num = instance_place_list(x,y,all,list,false)
+	}
+	for (var i = 0; i<num; i++)
+	{
+		if list[|i].object_index == obj_water_deep ||list[|i].object_index == obj_water_shallow
+		{
+			list[|i].is_polluted = false;
+			list[|i].alarm[0] = 10*fps;
+		}
+	}
+	
+	stamina -= 2/fps;
+	ds_list_destroy(list);
+}

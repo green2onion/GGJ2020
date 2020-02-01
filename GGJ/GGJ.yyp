@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "3c9e321e-88a2-49bc-9b21-a63bcf65cb8d",
-            "Value": {
-                "id": "c9f87216-db4a-4a75-826c-712bc3824d6e",
-                "resourcePath": "sprites\/spr_water_deep\/spr_water_deep.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3e80e75c-c9fb-4be3-b20a-61478155ca95",
             "Value": {
                 "id": "ced18ca7-5adb-4e01-862f-2a371c6653f0",
@@ -479,6 +471,14 @@
             }
         },
         {
+            "Key": "b7907359-77b4-4d51-b021-b86eee1856a6",
+            "Value": {
+                "id": "76221a13-90fa-4b61-bf75-2f3bec6ac2f5",
+                "resourcePath": "sprites\\spr_spray\\spr_spray.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bf1b34df-11fc-44f6-b335-c173c651d3c4",
             "Value": {
                 "id": "572331e3-9cd6-4840-89e3-2622d9a6556b",
@@ -511,18 +511,18 @@
             }
         },
         {
+            "Key": "cd831bd6-802e-4429-a037-bebb6fdcdb3a",
+            "Value": {
+                "id": "8c0b9d7b-a3e5-49b8-9f22-442cd8b62ad4",
+                "resourcePath": "objects\\obj_spray\\obj_spray.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ce52d60d-bb9e-4b31-9398-738fdef613fa",
             "Value": {
                 "id": "a5d43717-4257-4504-b9f0-5f0b2dacd1e4",
                 "resourcePath": "sprites\/spr_rock13_normal\/spr_rock13_normal.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ce8b6858-b023-4fb6-aaf6-ab97d8e1f014",
-            "Value": {
-                "id": "7475604c-54ef-460d-ae49-f04e8c66397c",
-                "resourcePath": "sprites\/spr_water_shallow\/spr_water_shallow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -539,6 +539,14 @@
             "Value": {
                 "id": "66bfefe5-4890-40ec-aea3-3f43e04e7746",
                 "resourcePath": "sprites\/spr_rock10_polluted\/spr_rock10_polluted.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc82dfab-ff68-4a65-8e47-fa6fe93fe0be",
+            "Value": {
+                "id": "52779339-4a3d-4ed4-be70-9b06aac9dad4",
+                "resourcePath": "sprites\\spr_water_deep1\\spr_water_deep1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -586,7 +594,7 @@
             "Key": "f95e5ecc-4b78-4a58-a82a-8d9056ce15ac",
             "Value": {
                 "id": "e2d09063-6932-4bc9-bf72-2cf48924b860",
-                "resourcePath": "sprites\/spr_char\/spr_char.yy",
+                "resourcePath": "sprites\\spr_char_placeholder\\spr_char_placeholder.yy",
                 "resourceType": "GMSprite"
             }
         },
