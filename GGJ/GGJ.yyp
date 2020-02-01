@@ -71,11 +71,27 @@
             }
         },
         {
+            "Key": "3c9e321e-88a2-49bc-9b21-a63bcf65cb8d",
+            "Value": {
+                "id": "c9f87216-db4a-4a75-826c-712bc3824d6e",
+                "resourcePath": "sprites\\spr_water_deep\\spr_water_deep.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c7692c1-c2cd-4732-a4fb-43fe59403dab",
             "Value": {
                 "id": "ca8a2b40-14fe-48c0-9acc-8546583de21c",
                 "resourcePath": "views\/4c7692c1-c2cd-4732-a4fb-43fe59403dab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5746115d-01ba-467a-9afb-0b189bd7a82d",
+            "Value": {
+                "id": "c41979e8-ab89-4081-8544-df65f8a35eb1",
+                "resourcePath": "objects\\obj_rock\\obj_rock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "8a9de032-9128-4b0f-8576-cbbc76abcb50",
+            "Value": {
+                "id": "16b1294d-71a9-4ba4-b930-bf313cf27fb8",
+                "resourcePath": "sprites\\spr_water\\spr_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ec5833e-2c11-4927-802b-fae5326f1698",
             "Value": {
                 "id": "053513b2-afcd-488d-ae76-0eca14f269c7",
@@ -151,11 +175,43 @@
             }
         },
         {
+            "Key": "9af084e7-583e-4d83-885c-9aa1b3a9db06",
+            "Value": {
+                "id": "7c2951d8-ca18-482b-8153-5a7bf94ec2f9",
+                "resourcePath": "objects\\obj_water_shallow\\obj_water_shallow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "4c2504e5-7408-49cd-a621-1d844a736f11",
                 "resourcePath": "options\/amazonfire\/options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a1dbffe6-3659-4929-a079-aaca0a338806",
+            "Value": {
+                "id": "c3aab06f-0952-4212-8dbe-27ffefd5ba36",
+                "resourcePath": "sprites\\spr_pipe\\spr_pipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a29f03aa-93a8-435f-97c0-763c612891e3",
+            "Value": {
+                "id": "f3a04d3c-e39f-4ecb-acfb-5a4e8010580e",
+                "resourcePath": "sprites\\spr_rock\\spr_rock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2ae0dba-a9ea-4e31-a0bd-b956620cd9cb",
+            "Value": {
+                "id": "d024e6de-a4b7-4048-9513-c2c58dba4e7b",
+                "resourcePath": "objects\\obj_pipe\\obj_pipe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -191,6 +247,22 @@
             }
         },
         {
+            "Key": "b6d96aab-c8e9-4602-b250-7cfae3f979a2",
+            "Value": {
+                "id": "2956cbbe-e99f-4b63-a988-05bdabe6d089",
+                "resourcePath": "objects\\obj_water_deep\\obj_water_deep.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bf1b34df-11fc-44f6-b335-c173c651d3c4",
+            "Value": {
+                "id": "572331e3-9cd6-4840-89e3-2622d9a6556b",
+                "resourcePath": "objects\\obj_collider\\obj_collider.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c8b60eaa-28a2-4cb9-8dc8-b9e12eae1194",
             "Value": {
                 "id": "9b706a48-3ba2-4b05-9fac-f68aa3cc714a",
@@ -204,6 +276,22 @@
                 "id": "f1404227-6442-4089-9182-ded4d4b6dc29",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce8b6858-b023-4fb6-aaf6-ab97d8e1f014",
+            "Value": {
+                "id": "7475604c-54ef-460d-ae49-f04e8c66397c",
+                "resourcePath": "sprites\\spr_water_shallow\\spr_water_shallow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d451e974-005e-4aae-9e52-0b543b1e527d",
+            "Value": {
+                "id": "58146fe9-01eb-44ce-8126-57f11547fbcf",
+                "resourcePath": "sprites\\spr_collider\\spr_collider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -223,6 +311,14 @@
             }
         },
         {
+            "Key": "e578d588-c533-4938-91af-c55e589ad3b8",
+            "Value": {
+                "id": "e2f8d1e3-e75f-4c94-a1fa-9def0a3fe2b3",
+                "resourcePath": "objects\\obj_char\\obj_char.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "bc9341c0-effb-4da0-95b3-2d112ffd11a1",
@@ -236,6 +332,14 @@
                 "id": "629672dd-1b36-494b-a9b5-9887b0b71fea",
                 "resourcePath": "views\/f52805fc-7431-4c76-986f-786e6eb89517.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f95e5ecc-4b78-4a58-a82a-8d9056ce15ac",
+            "Value": {
+                "id": "e2d09063-6932-4bc9-bf72-2cf48924b860",
+                "resourcePath": "sprites\\spr_char\\spr_char.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
