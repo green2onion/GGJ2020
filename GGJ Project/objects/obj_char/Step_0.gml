@@ -20,7 +20,7 @@ if place_meeting(x,y,obj_polluted_water)
 }
 if place_meeting(x,y,obj_polluted_water_deep)
 {
-	if instance_place(x,y,obj_polluted_water).is_polluted 
+	if instance_place(x,y,obj_polluted_water_deep).is_polluted 
 	{
 		mySpeed = deep_polluted_speed;
 		stamina -= 6/fps;
@@ -182,12 +182,17 @@ if keyboard_check(vk_space)
 			if list[|i].object_index == obj_polluted_water ||list[|i].object_index == obj_polluted_water_deep
 			{
 				list[|i].is_polluted = false;
-				list[|i].alarm[0] = 10*fps;
+				list[|i].alarm[0] = 100*fps;
 			}
 			if list[|i].object_index == obj_oil 
 			{
 				list[|i].hp -= 20/fps;
 			}	
+			var rock_name_1 = object_get_name(list[|i].object_index);
+			if string_pos("obj_rock",rock_name_1) != 0
+			{
+				list[|i].is_polluted = false;
+			}
 		}
 		stamina -= 2/fps;
 		ds_list_destroy(list);
