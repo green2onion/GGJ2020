@@ -11,11 +11,12 @@
         "cd831bd6-802e-4429-a037-bebb6fdcdb3a",
         "b6d96aab-c8e9-4602-b250-7cfae3f979a2",
         "a2ae0dba-a9ea-4e31-a0bd-b956620cd9cb",
-<<<<<<< HEAD
         "921b56f4-a60a-451f-b2fa-74fcd7648814"
-=======
         "f9929f76-44ef-490d-8155-c9b2be8e1555"
->>>>>>> saber-art
+        "a2272e0d-c279-4532-bb73-35b037e8ef1e",
+        "13571a7f-4eef-46a7-a636-68f10da8a5ff",
+        "f9929f76-44ef-490d-8155-c9b2be8e1555",
+        "8bb00f8c-ca39-42e5-a514-4346fe45afc8"
     ],
     "filterType": "GMObject",
     "folderName": "objects",
