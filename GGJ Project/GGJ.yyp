@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "4b6c35d1-2661-460b-84c8-406e2712a909",
+            "Value": {
+                "id": "eae498aa-a42e-42cb-9d1f-16ef016f35b9",
+                "resourcePath": "objects\\obj_manager\\obj_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4c46396f-d83a-46c3-b122-20fd8666e1af",
             "Value": {
                 "id": "b6ff6541-77d2-471d-b193-874cd0fc189c",
@@ -436,6 +444,14 @@
                 "id": "a449d250-d3af-410f-b382-a0575c53ead1",
                 "resourcePath": "objects\/obj_rock9\/obj_rock9.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7ecb4664-b9b2-462c-af99-15b5de8dd918",
+            "Value": {
+                "id": "05d78c01-c1b2-4582-924d-2fcfc29c238c",
+                "resourcePath": "sprites\\sprite49\\sprite49.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -788,6 +804,14 @@
                 "id": "e2e1fb4b-3ae0-4f1c-9735-65bd4cc5e3da",
                 "resourcePath": "objects\/obj_polluted_water_deep\/obj_polluted_water_deep.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8db4d1a-0381-4c6d-b388-05361c211561",
+            "Value": {
+                "id": "ed730f13-8fd1-4ab8-abfa-02d9c691f4d5",
+                "resourcePath": "sprites\\spr_water_deep\\spr_water_deep.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

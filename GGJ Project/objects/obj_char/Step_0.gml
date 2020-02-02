@@ -166,29 +166,33 @@ if oxygen >= 100
 
 if keyboard_check(vk_space)
 {
-	var list = ds_list_create();
-	with (obj_spray)
+	if !is_underwater
 	{
-		var num = instance_place_list(x,y,all,list,false)
-	}
-	for (var i = 0; i<num; i++)
-	{
-		if list[|i].object_index == obj_polluted_water ||list[|i].object_index == obj_polluted_water_deep
+		var list = ds_list_create();
+		with (obj_spray)
 		{
-			list[|i].is_polluted = false;
-			list[|i].alarm[0] = 10*fps;
+			var num = instance_place_list(x,y,all,list,false)
 		}
-		if list[|i].object_index == obj_oil 
+		//var particle_system = part_system_create_layer("Instances",false);
+		effect_create_below(ef_spark,x,y,2,c_white);
+		
+		
+		for (var i = 0; i<num; i++)
 		{
-			if !is_underwater
+			if list[|i].object_index == obj_polluted_water ||list[|i].object_index == obj_polluted_water_deep
+			{
+				list[|i].is_polluted = false;
+				list[|i].alarm[0] = 10*fps;
+			}
+			if list[|i].object_index == obj_oil 
 			{
 				list[|i].hp -= 20/fps;
 			}	
 		}
+		stamina -= 2/fps;
+		ds_list_destroy(list);
 	}
 	
-	stamina -= 2/fps;
-	ds_list_destroy(list);
 }
 
 
