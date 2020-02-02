@@ -3,10 +3,10 @@
 
 if is_polluted
 {
-	sprite_index = spr_rock1_polluted;
+	sprite_index = spr_polluted;
 }
 else
 {
-	sprite_index = spr_rock1_normal;
+	sprite_index = spr_clean;
 }
 draw_self();
