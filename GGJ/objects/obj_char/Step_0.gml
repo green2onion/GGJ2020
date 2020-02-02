@@ -30,7 +30,7 @@ if place_meeting(x,y,obj_water_deep)
 }
 if place_meeting(x,y,obj_oil)
 {
-	if instance_place(x,y,obj_oil).is_polluted 
+	if instance_place(x,y,obj_oil).is_polluted && !is_underwater
 	{
 		mySpeed = deep_polluted_speed;
 		stamina -= 20/fps;
@@ -136,6 +136,24 @@ var cam_x = lerp(camera_get_view_x(view_camera[0]),x-cwidth/2,0.1);
 var cam_y = lerp(camera_get_view_y(view_camera[0]),y-cheight/2,0.1);
 camera_set_view_pos(view_camera[0],cam_x,cam_y);
 
+is_underwater = keyboard_check(vk_lshift);
+if is_underwater
+{
+	sprite_index = spr_bubbles;
+	oxygen -= 5/fps;
+}
+else
+{
+	oxygen += 5/fps;
+}
+if oxygen <= 0
+{
+	oxygen = 0;
+}
+if oxygen >= 100
+{
+	oxygen = 100;
+}
 
 if keyboard_check(vk_space)
 {
@@ -151,12 +169,24 @@ if keyboard_check(vk_space)
 			list[|i].is_polluted = false;
 			list[|i].alarm[0] = 10*fps;
 		}
-		if list[|i].object_index == obj_oil
+		if list[|i].object_index == obj_oil 
 		{
-			list[|i].hp -= 20/fps;
+			if !is_underwater
+			{
+				list[|i].hp -= 20/fps;
+			}	
 		}
 	}
 	
 	stamina -= 2/fps;
 	ds_list_destroy(list);
 }
+
+
+if stamina <= 0
+{
+	room_goto(room_game_over);
+}
+
+
+

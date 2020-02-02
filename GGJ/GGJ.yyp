@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "b4921957-25a1-4e04-a06b-dcf8ea565d6f",
+            "Value": {
+                "id": "83e989a7-5445-4036-8a93-36960768ffe1",
+                "resourcePath": "sprites\\spr_bubbles\\spr_bubbles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6b8dcaa-705d-4c60-a8ae-71319bd3c6db",
             "Value": {
                 "id": "8eb835fb-30b1-4669-838e-c3c73d1f1d58",
@@ -604,6 +612,14 @@
                 "id": "3d838ad1-0fea-4c06-bafe-4b911cc3f521",
                 "resourcePath": "views\/e4e727e1-4979-4ded-8194-e807dd854e6d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4e74f08-2ca3-41fa-ad14-4ec1c5921645",
+            "Value": {
+                "id": "ede56a1b-b1e3-4c2c-a2e0-c309f30eec76",
+                "resourcePath": "rooms\\room_game_over\\room_game_over.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

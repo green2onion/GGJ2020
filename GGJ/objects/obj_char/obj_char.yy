@@ -177,6 +177,34 @@
             "value": "1",
             "varName": "deep_polluted_speed",
             "varType": 0
+        },
+        {
+            "id": "e66881df-bf96-4b4a-843a-5eec0c8760b3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "oxygen",
+            "varType": 0
+        },
+        {
+            "id": "eb96b4c9-9cbf-4d55-8562-38012f8d7c54",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_underwater",
+            "varType": 3
         }
     ],
     "solid": false,
