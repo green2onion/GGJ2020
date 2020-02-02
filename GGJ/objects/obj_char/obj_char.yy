@@ -95,20 +95,6 @@
             "varType": 0
         },
         {
-            "id": "097038f0-d795-4722-a753-b24e76f7f4d2",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "front",
-            "varName": "facing",
-            "varType": 2
-        },
-        {
             "id": "fb16d915-6fba-4b95-8e3c-0abd91091e65",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -163,9 +149,37 @@
             "value": "100",
             "varName": "stamina",
             "varType": 0
+        },
+        {
+            "id": "dc9117bd-2087-4a82-9e7a-95e38858f859",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "shallow_polluted_speed",
+            "varType": 0
+        },
+        {
+            "id": "146b56d8-ded9-4045-b596-02cb730f8e52",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "deep_polluted_speed",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "f95e5ecc-4b78-4a58-a82a-8d9056ce15ac",
+    "spriteId": "8bd41a3b-ff55-447b-bed8-494aaf06f7e8",
     "visible": true
 }
