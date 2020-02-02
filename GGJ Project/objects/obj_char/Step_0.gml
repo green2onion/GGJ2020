@@ -171,6 +171,7 @@ if keyboard_check(vk_space)
 		var list = ds_list_create();
 		with (obj_spray)
 		{
+			obj_spray.visible = true;
 			var num = instance_place_list(x,y,all,list,false)
 		}
 		//var particle_system = part_system_create_layer("Instances",false);
@@ -199,7 +200,10 @@ if keyboard_check(vk_space)
 	}
 	
 }
-
+else
+{
+	obj_spray.visible = false;
+}
 
 if stamina <= 0
 {
