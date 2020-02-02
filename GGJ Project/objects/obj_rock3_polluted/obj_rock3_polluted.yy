@@ -2,7 +2,7 @@
     "id": "9501a0f6-3115-44ba-82d1-4ea710b7f4cf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rock3_pollted",
+    "name": "obj_rock3_polluted",
     "eventList": [
         {
             "id": "aa9b9ecc-ed0d-49e2-9595-9e904f506563",
