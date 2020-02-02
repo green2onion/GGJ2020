@@ -2,7 +2,7 @@
     "id": "b55955e5-1880-4c5a-9c81-4efc0fbf5776",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rock8",
+    "name": "obj_not_rock8",
     "eventList": [
         
     ],

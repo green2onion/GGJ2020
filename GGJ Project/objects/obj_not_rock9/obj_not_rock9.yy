@@ -1,15 +1,13 @@
 {
-    "id": "c6e11c6f-9d15-4229-9031-e0d0779eadc4",
+    "id": "7ec61fd0-6d75-4507-a103-7276f1dee2a9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rock7",
+    "name": "obj_not_rock9",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        
-    ],
+    "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -26,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "12937d0c-d369-47da-9dd1-06a2047fec6b",
+    "spriteId": "b9701ccb-ff1b-4769-af75-087dbb84d427",
     "visible": true
 }

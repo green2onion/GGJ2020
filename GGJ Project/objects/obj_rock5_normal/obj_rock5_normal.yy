@@ -5,16 +5,6 @@
     "name": "obj_rock5_normal",
     "eventList": [
         {
-            "id": "42fb51e7-ffda-4ff4-a7cf-592934e1b637",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "a0d27bd5-d077-49b4-8ccb-f38dd11145ed"
-        },
-        {
             "id": "b6827626-7a7b-4e17-832d-96aa721baf3c",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "a0d27bd5-d077-49b4-8ccb-f38dd11145ed"
+        },
+        {
+            "id": "b5b5844d-db95-4b7b-9d63-bf5198701b60",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "a0d27bd5-d077-49b4-8ccb-f38dd11145ed"
         }
     ],
