@@ -55,6 +55,20 @@
             "value": "True",
             "varName": "is_polluted",
             "varType": 3
+        },
+        {
+            "id": "cc2e6cc3-123d-4da5-89d2-b41f98f066db",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_cured",
+            "varType": 3
         }
     ],
     "solid": false,

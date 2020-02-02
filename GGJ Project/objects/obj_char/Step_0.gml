@@ -183,7 +183,7 @@ if keyboard_check(vk_space)
 			if list[|i].object_index == obj_polluted_water ||list[|i].object_index == obj_polluted_water_deep
 			{
 				list[|i].is_polluted = false;
-				list[|i].alarm[0] = 100*fps;
+				list[|i].alarm[0] = 500*fps;
 			}
 			if list[|i].object_index == obj_oil 
 			{

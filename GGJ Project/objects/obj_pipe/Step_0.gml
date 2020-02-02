@@ -24,6 +24,7 @@ if hp <= 0
 		if distance_to_object(tile) <= 512
 		{
 			tile.is_polluted = false;
+			tile.is_cured = true;
 		}
 	}
 	for (var i = 0; i < instance_number(obj_polluted_water_deep); i++)
@@ -32,6 +33,7 @@ if hp <= 0
 		if distance_to_object(tile) <= 512
 		{
 			tile.is_polluted = false;
+			tile.is_cured = true;
 		}
 	}
 	for (var i = 0; i < instance_number(obj_oil); i++)
@@ -41,6 +43,7 @@ if hp <= 0
 		{
 			var new_tile = instance_create_layer(tile.x,tile.y,"Terrain",obj_polluted_water);
 			new_tile.is_polluted = false;
+			new_tile.is_cured = true;
 			instance_destroy(tile);
 		}
 	}

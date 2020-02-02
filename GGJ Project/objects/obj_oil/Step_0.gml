@@ -5,10 +5,10 @@ if hp <= 0
 {
 	is_polluted = false;
 	hp = 0;
-	if alarm <= 0
-	{
-		alarm[0] = 5 * fps;
-	}
+	var new_tile = instance_create_layer(x,y,"Terrain",obj_polluted_water);
+		new_tile.is_polluted = false;
+		new_tile.is_cured = true;
+		instance_destroy();
 	
 }
 
