@@ -11,3 +11,10 @@ if hp <= 0
 	}
 	
 }
+
+if hp < tempHP
+{
+	x = random_range(origin_x-5,origin_x+5);
+	y = random_range(origin_y-5,origin_y+5);
+	tempHP = hp;
+}

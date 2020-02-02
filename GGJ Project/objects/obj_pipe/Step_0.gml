@@ -39,7 +39,9 @@ if hp <= 0
 		var tile = instance_find(obj_oil,i);
 		if distance_to_object(tile) <= 512
 		{
-			tile.is_polluted = false;
+			var new_tile = instance_create_layer(tile.x,tile.y,"Terrain",obj_polluted_water);
+			new_tile.is_polluted = false;
+			instance_destroy(tile);
 		}
 	}
 	instance_destroy();

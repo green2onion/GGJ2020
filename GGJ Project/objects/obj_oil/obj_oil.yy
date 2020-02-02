@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "20f1d26a-002b-4c8f-9791-055995d766e5"
+        },
+        {
+            "id": "d2a6afaf-ad52-4257-94f0-8cffda57a3b8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "20f1d26a-002b-4c8f-9791-055995d766e5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -78,6 +88,48 @@
             "resourceFilter": 1023,
             "value": "100",
             "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "e7909236-142c-4603-8556-72130cc33ed3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "tempHP",
+            "varType": 0
+        },
+        {
+            "id": "e8a33af2-005a-4443-865b-bb3782ab53af",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "origin_x",
+            "varType": 0
+        },
+        {
+            "id": "9a8a4fde-81c2-4da4-8891-b05f8db65c43",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "origin_y",
             "varType": 0
         }
     ],
