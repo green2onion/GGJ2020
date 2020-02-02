@@ -6,10 +6,15 @@ if place_meeting(x,y,obj_char)
 {
 	if keyboard_check(vk_space)
 	{
-		hp -= 10/fps;
+		hp -= 20/fps;
 	}
 }
-
+if hp < tempHP
+{
+	x = random_range(origin_x-5,origin_x+5);
+	y = random_range(origin_y-5,origin_y+5);
+	tempHP = hp;
+}
 
 if hp <= 0
 {
