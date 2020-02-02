@@ -55,6 +55,34 @@
             "value": "True",
             "varName": "is_polluted",
             "varType": 3
+        },
+        {
+            "id": "e9273396-41b2-4247-b00d-4fdb71c55f59",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_rock1_normal",
+            "varName": "spr_clean",
+            "varType": 5
+        },
+        {
+            "id": "9bd90bc3-fa29-43f5-841f-bc1869b53402",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_rock1_polluted",
+            "varName": "spr_polluted",
+            "varType": 5
         }
     ],
     "solid": false,

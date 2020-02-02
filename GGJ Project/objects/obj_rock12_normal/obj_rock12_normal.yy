@@ -5,16 +5,6 @@
     "name": "obj_rock12_normal",
     "eventList": [
         {
-            "id": "ac34e372-1090-4efc-a9af-0f81d8bba41c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "df0cf1aa-946f-4763-a469-4235e1f742c0"
-        },
-        {
             "id": "5ac4e8d4-f760-49a2-b289-0309f9e41638",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -23,11 +13,38 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "df0cf1aa-946f-4763-a469-4235e1f742c0"
+        },
+        {
+            "id": "586b4bfb-c04e-4a1e-a50f-06a116446611",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "df0cf1aa-946f-4763-a469-4235e1f742c0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "e8cc03c6-b5bf-49f9-9951-6aa774afe7b0",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "5746115d-01ba-467a-9afb-0b189bd7a82d",
+            "propertyId": "9bd90bc3-fa29-43f5-841f-bc1869b53402",
+            "value": "spr_rock12_polluted"
+        },
+        {
+            "id": "63811f4d-85e8-487a-924b-94bd1b09556c",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "5746115d-01ba-467a-9afb-0b189bd7a82d",
+            "propertyId": "e9273396-41b2-4247-b00d-4fdb71c55f59",
+            "value": "spr_rock12_normal"
+        }
+    ],
+    "parentObjectId": "5746115d-01ba-467a-9afb-0b189bd7a82d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -42,20 +59,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "e69098e6-5874-44fc-8227-acccc51c7fe4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "True",
-            "varName": "is_polluted",
-            "varType": 3
-        }
+        
     ],
     "solid": false,
     "spriteId": "51ac8e22-aee0-46e2-b10e-3efa8da62667",

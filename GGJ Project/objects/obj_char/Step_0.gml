@@ -44,7 +44,8 @@ var list_rock = ds_list_create();
 instance_place_list(x,y,all,list_rock,false);
 for (var i = 0; i < ds_list_size(list_rock); i++)
 {
-	if string_pos("obj_rock",object_get_name(list_rock[|i])) != 0
+	var rock_name = object_get_name(list_rock[|i].object_index);
+	if string_pos("obj_rock",rock_name) != 0
 	{
 		mySpeed = rock_speed;
 		stamina += 30/fps;
