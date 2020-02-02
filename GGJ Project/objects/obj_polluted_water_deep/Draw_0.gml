@@ -1,0 +1,12 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+if is_polluted
+{
+	sprite_index = spr_polluted_water_deep;
+}
+else
+{
+	sprite_index = spr_water_deep1;
+}
+draw_self();
