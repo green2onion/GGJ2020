@@ -188,5 +188,22 @@ if stamina <= 0
 	room_goto(room_game_over);
 }
 
-
-
+if keyboard_check(vk_space)
+{
+	var list = ds_list_create();
+	with (obj_spray)
+	{
+		var num = instance_place_list(x,y,all,list,false)
+	}
+	for (var i = 0; i<num; i++)
+	{
+		if list[|i].object_index == obj_water_deep ||list[|i].object_index == obj_water_shallow
+		{
+			list[|i].is_polluted = false;
+			list[|i].alarm[0] = 10*fps;
+		}
+	}
+	
+	stamina -= 2/fps;
+	ds_list_destroy(list);
+}
