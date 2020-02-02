@@ -6,6 +6,11 @@
 if is_saved
 {
 	sprite_index = spr_turtle;
+	if direction > 90 and direction < 180 
+	{
+		sprite_index = spr_turtle_up;
+	}
+	
 	if alarm[0] <= 0
 	{
 		alarm[0] = 5*fps;
