@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "34be06c6-524f-49dd-b172-aa75ff064a06",
+            "Value": {
+                "id": "478fb2be-27d6-4efd-b829-7f70746a169d",
+                "resourcePath": "sprites\/spr_you_lost\/spr_you_lost.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "384963cb-74c1-4610-9080-d3f7e14fd5ec",
             "Value": {
                 "id": "f5b6371d-c70f-4dc2-b2c7-a492ac34258a",
