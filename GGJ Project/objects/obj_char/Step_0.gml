@@ -38,16 +38,24 @@ if place_meeting(x,y,obj_oil)
 	mySpeed = deep_speed;
 	stamina -= 5/fps;
 }
-if place_meeting(x,y,obj_rock)
+
+
+var list_rock = ds_list_create();
+instance_place_list(x,y,all,list_rock,false);
+for (var i = 0; i < ds_list_size(list_rock); i++)
 {
-	if instance_place(x,y,obj_rock).is_polluted 
+	if string_pos("obj_rock",object_get_name(list_rock[|i])) != 0
 	{
-		mySpeed = shallow_polluted_speed;
-		stamina -= 3/fps;
+		mySpeed = rock_speed;
+		stamina += 30/fps;
+		break;
 	}
-	mySpeed = rock_speed;
-	stamina += 30/fps;
+
 }
+
+
+
+
 
 if stamina > 100
 {
