@@ -1,8 +1,8 @@
 {
-    "id": "a2ae0dba-a9ea-4e31-a0bd-b956620cd9cb",
+    "id": "8bb00f8c-ca39-42e5-a514-4346fe45afc8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pipe",
+    "name": "obj_turtle",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "738ce0fd-330f-496c-8b6f-d98c076846a0",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
